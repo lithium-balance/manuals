@@ -14,6 +14,7 @@ Atomの設定 共通
 * markdown-scroll-sync
 * markdown-writer
 * nav-panel
+* linter-textlint  (Timecopをみると時間がかかっているようだが...)
 
 未導入なパッケージ
 ------------------
@@ -26,6 +27,7 @@ Atomの設定 共通
 * tree-view-finder
 * symbols-tree-view
 * show-ideographic-space
+* project-manager
 
 無効化したパッケージ
 --------------------
@@ -70,9 +72,13 @@ Windowsでの設定
 
 設定
 ----
-
+Windows7環境にて、以下の設定を行っている。
 * 設定
-  - フォントに`Migu 1M`、フォントサイズを15に設定する。  
-    ※`Myrica M`だと、ソフトラップ時の行番号表示がずれる  
+  - フォントに`Migu 1M`、フォントサイズを15に設定する。
+    ※`Myrica M`だと、ソフトラップ時の行番号表示がずれる
     ※`Source Han Code JP N`は全角と半角の幅が3:2なので違和感がある。
   - `不可視文字を表示`にチェックを入れたいのだが、表示が微妙に...
+
+atom.exeの置き場所
+------------------
+`C:\Users\<ユーザ名>\AppData\Local\atom\app-<バージョン>` に置いてあった。
